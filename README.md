@@ -47,16 +47,12 @@ $env:OPENAI_API_KEY = "sk_..."
 - The UI uses `st.session_state` to preserve answers and navigation.
 - Rule engines live in `kb/` and expose a `calculate()` method returning a dict with `result`, `alternative`, and `percentage`.
 
-## Contributing
-- Please open issues or PRs with small, focused changes.
-- Do not commit secrets or API keys. Add them to `.gitignore` if needed.
+
 
 ## License
 This repository does not include a license file. Add a `LICENSE` if you want to set terms.
 
 ---
-If you want, I can:
-- Commit this `README.md` and push it to your GitHub (you already have `origin` configured), or
-- Create a `README` with extra sections (deployment, CI) — tell me what you'd like added.
+
 # MindMirror-Expert-System
 MirrorMind is a psychological expert system built to mirror the decision-making of a human psychologist. Its purpose is simple: help you understand your thinking patterns and become more aware of how your mind works.  
